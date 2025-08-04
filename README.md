@@ -3,7 +3,7 @@
 A classic Pong implementation in C using SDL2 for graphics and input handling.
 
 <div align="center">
-  <img src="img/pong.jpg" alt="Pong Game" width="800"/>
+  <img src="img/pong.jpg" alt="Pong Game" width="600"/>
 </div>
 
 ## 📋 Overview
