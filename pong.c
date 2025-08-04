@@ -95,7 +95,7 @@ int main(){
         //                     	         int x, int y,      //position
 	//                               int w, int h,      //widht and height of the window
 	//                               Uint32 flags);     //keyword
-	SDL_Window* window = SDL_CreateWindow("Pong name",
+	SDL_Window* window = SDL_CreateWindow("Pong Game",
 					       SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED,
 					       WINDOW_WIDTH, WINDOW_HEIGHT, 
                                                0);
