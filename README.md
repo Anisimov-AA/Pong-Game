@@ -27,18 +27,20 @@ This project implements the classic Pong arcade game featuring two paddles and a
 
 The game is structured with clean, modular C code:  
 
+```
 pong.c  
 ├── Structs  
-│   ├── Paddle - Contains rectangle and velocity data  
-│   └── Ball - Contains rectangle and velocity data  
+│   ├── Paddle                  # Contains rectangle and velocity data  
+│   └── Ball                    # Contains rectangle and velocity data  
 ├── Game Logic  
-│   ├── move_paddle() - Updates paddle positions  
-│   ├── move_ball() - Updates ball position and wall collision  
-│   ├── ball_paddle_collision() - Handles paddle collision detection  
-│   └── reset_ball_position() - Resets ball with random direction  
+│   ├── move_paddle()           # Updates paddle positions  
+│   ├── move_ball()             # Updates ball position and wall collision  
+│   ├── ball_paddle_collision() # Handles paddle collision detection  
+│   └── reset_ball_position()   # Resets ball with random direction  
 └── Input/Rendering  
-    ├── keyHandler() - Processes keyboard input  
-    └── main() - Game loop with rendering  
+    ├── keyHandler()            # Processes keyboard input  
+    └── main()                  # Game loop with rendering  
+```
 
 ## 🛠️ Technologies
 
